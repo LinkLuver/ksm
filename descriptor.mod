@@ -3,6 +3,6 @@ tags={
 	"Historical"
 	"Characters"
 }
-name="Kemetism++"
+name="Kemetic Mod for Syncretism"
 supported_version="2.03"
 remote_file_id="2936629590"
