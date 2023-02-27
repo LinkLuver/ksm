@@ -1,0 +1,95 @@
+deity_manager = {
+	deities_database = { #Mod Deities 476-486 and 503-524
+		#Combo Gods
+		490 = {
+			key = omen_sekhmet_bastet
+			deity = deity_sekhmet_bastet
+		}
+		491 = {
+			key = omen_sobek_ra
+			deity = deity_sobek_ra
+		}
+
+		#Syncretic Gods
+		503 = { #Canaanite Syncretic
+			key = omen_resheph_horus
+			deity = deity_resheph_horus
+		}
+		504 = {
+			key = omen_anat_bastet
+			deity = deity_anat_bastet
+		}
+		505 = {
+			key = omen_qetesh_hathor
+			deity = deity_qetesh_hathor
+		}
+		506 = {
+			key = omen_asarte_sekhmet
+			deity = deity_asarte_sekhmet
+		}
+		507 = {
+			key = omen_melqart_osiris
+			deity = deity_melqart_osiris
+		}
+		508 = { #Chaldean Syncretic
+			key = omen_nebothoth
+			deity = deity_nebothoth
+		}
+		509 = {
+			key = omen_nerganubis
+			deity = deity_nerganubis
+		}
+		510 = {
+			key = omen_shamashra
+			deity = deity_shamashra
+		}
+		511 = {
+			key = omen_ishtar_hathor
+			deity = deity_ishtar_hathor
+		}
+		512 = { #Tuistic Syncretic
+			key = omen_woden_thoth
+			deity = deity_woden_thoth
+		}
+		513 = {
+			key = omen_isis_freya
+			deity = deity_isis_freya
+		}
+		514 = {
+			key = omen_tuistamun
+			deity = deity_tuistamun
+		}
+		515 = {
+			key = omen_apepirmin
+			deity = deity_apepirmin
+		}
+		516 = {
+			key = omen_monthunraz
+			deity = deity_monthunraz
+		}
+		517 = { #Arabic Syncretic
+			key = omen_al_lathor
+			deity = deity_al_lathor
+		}
+		518 = {
+			key = omen_uzzamaat
+			deity = deity_uzzamaat
+		}
+		519 = {
+			key = omen_al_kuthoth
+			deity = deity_al_kuthoth
+		}
+		520 = { #Aksumite Syncretic
+			key = omen_maher_sobek
+			deity = deity_maher_sobek
+		}
+		522 = {
+			key = omen_hattar
+			deity = deity_hathor_astwer
+		}
+		523 = {
+			key = omen_beherhapy
+			deity = deity_beherhapy
+		}
+	}
+}
