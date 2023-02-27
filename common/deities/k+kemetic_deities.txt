@@ -99,6 +99,59 @@ deity_sobek_ra = { # WAR
 		can_deify_trigger = yes
 	}
 }
+deity_resheph_horus = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = egyptian_pantheon
+			}
+			deity:omen_rasheph_horus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_kemetic_war
+	passive_modifier = { war_score_cost = deity_war_score_cost_svalue }
+	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
+	religion = egyptian_pantheon
+	deity_category = war #This Deity uses a War slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_rel_tech_effect = yes
+	}
+}
+deity_qetesh_hathor = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = egyptian_pantheon
+			}
+			deity:qetesh_hathor = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_kemetic_love_2
+	passive_modifier = { global_population_capaity = deity_global_population_capacity_modifier_svalue }
+	omen = { global_nobles_happyness = deity_global_nobles_happiness_svalue } #Bonus from Omen
+	religion = egyptian_pantheon
+	deity_category = fertility #This Deity uses a Fertility slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
+
 #GREEK SYNCRETICS
 ##found out that invictus already has a ton for kemetic-greek stuff, c+p from invictus right now as placeholder
 deity_harpocrates = {
@@ -180,44 +233,6 @@ deity_sikandar = { #note, not done
 }
 
 #CANAANITE SYNCRETICS
-deity_resheph_horus = {
-	trigger = {
-		polytheistic_check_religion_trigger = yes
-		OR = {
-			AND = {
-				religion = egyptian_pantheon
-				religion_pops_in_country = {
-					target = carthaginian_pantheon
-					value >= rare_deity_svalue
-				}
-			}
-			AND = {
-				religion = carthaginian_pantheon
-				religion_pops_in_country = {
-					target = egyptian_pantheon
-					value >= rare_deity_svalue
-				}
-			}
-			deity:omen_rasheph_horus = {
-				holy_site_deity_check_trigger = yes
-			}
-		}
-	}
-	icon = deity_war
-	passive_modifier = { war_score_cost = deity_war_score_cost_svalue }
-	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
-	religion = egyptian_pantheon
-	deity_category = war #This Deity uses a War slot.
-	
-	deification_trigger = {
-		can_deify_trigger = yes
-	}
-	
-	on_activate = {
-		culture_apotheosis_rel_tech_effect = yes
-	}
-}
-
 deity_anat_bastet = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
@@ -253,44 +268,6 @@ deity_anat_bastet = {
 	
 	on_activate = {
 		military_apotheosis_military_experience_effect = yes
-	}
-}
-
-deity_qetesh_hathor = {
-	trigger = {
-		polytheistic_check_religion_trigger = yes
-		OR = {
-			AND = {
-				religion = egyptian_pantheon
-				religion_pops_in_country = {
-					target = carthaginian_pantheon
-					value >= rare_deity_svalue
-				}
-			}
-			AND = {
-				religion = carthaginian_pantheon
-				religion_pops_in_country = {
-					target = egyptian_pantheon
-					value >= rare_deity_svalue
-				}
-			}
-			deity:qetesh_hathor = {
-				holy_site_deity_check_trigger = yes
-			}
-		}
-	}
-	icon = deity_kemetic_love_2
-	passive_modifier = { global_population_capaity = deity_global_population_capacity_modifier_svalue }
-	omen = { global_nobles_happyness = deity_global_nobles_happiness_svalue } #Bonus from Omen
-	religion = egyptian_pantheon
-	deity_category = fertility #This Deity uses a Fertility slot.
-	
-	deification_trigger = {
-		can_deify_trigger = yes
-	}
-	
-	on_activate = {
-		fertility_apotheosis_capital_effect = yes
 	}
 }
 

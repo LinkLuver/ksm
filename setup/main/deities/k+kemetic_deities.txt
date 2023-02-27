@@ -9,19 +9,19 @@ deity_manager = {
 			key = omen_sobek_ra
 			deity = deity_sobek_ra
 		}
-
-		#Syncretic Gods
-		503 = { #Canaanite Syncretic
+		492 = { #Canaanite Syncretic
 			key = omen_resheph_horus
 			deity = deity_resheph_horus
 		}
-		504 = {
-			key = omen_anat_bastet
-			deity = deity_anat_bastet
-		}
-		505 = {
+		493 = { #Canaanite Syncretic
 			key = omen_qetesh_hathor
 			deity = deity_qetesh_hathor
+		}
+
+		#Syncretic Gods
+		505 = { #Canaanite Syncretic
+			key = omen_anat_bastet
+			deity = deity_anat_bastet
 		}
 		506 = {
 			key = omen_asarte_sekhmet
