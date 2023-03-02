@@ -94,7 +94,7 @@ deity_shait = { # Economy (Monarchy)
 		economy_apotheosis_province_improvement_effect = yes
 	}
 	religion = egyptian_pantheon
-	deity_category = culture #This Deity uses an Economy Slot
+	deity_category = economy #This Deity uses an Economy Slot
 
 	deification_trigger = {
 		can_deify_trigger = yes
@@ -120,7 +120,7 @@ deity_sashu = { # Economy (Democracy and Tribal)
 		economy_apotheosis_province_improvement_effect = yes
 	}
 	religion = egyptian_pantheon
-	deity_category = culture #This Deity uses an Economy Slot
+	deity_category = economy #This Deity uses an Economy Slot
 
 	deification_trigger = {
 		can_deify_trigger = yes
