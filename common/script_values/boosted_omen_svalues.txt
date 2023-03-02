@@ -1,0 +1,81 @@
+### Military ###
+boost_omen_discipline_svalue = 0.1
+
+boost_omen_land_morale_modifier_svalue = 0.1 ### MORALE
+boost_omen_naval_morale_modifier_svalue = 0.1
+
+boost_omen_manpower_recovery_speed = 0.16 ### MANPOWER
+
+boost_omen_aggressive_expansion_monthly_change_svalue = -0.1 ### AGGRESSIVE EXPANSION
+
+boost_omen_naval_damage_done_svalue = 0.16 ### NAVAL
+boost_omen_naval_damage_taken_svalue = -0.16
+
+boost_omen_global_defensive_svalue = 0.24
+
+boost_omen_war_no_cb_cost_modifier_svalue = -0.5
+
+boost_omen_assault_ability_svalue = 0.2
+
+boost_omen_fabricate_claim_speed_svalue = 2
+
+### Economy ###
+boost_omen_build_cost_svalue = -0.16
+
+boost_omen_global_commerce_modifier_svalue = 0.24 ### COMMERCE
+
+boost_omen_global_tax_modifier_svalue = 0.20 ### TAX
+
+boost_omen_religious_tech_investment_svalue = 0.24 ### TECH INVESTMENT
+boost_omen_civic_tech_investment_svalue = 0.24
+boost_omen_military_tech_investment = 0.24
+boost_omen_oratory_tech_investment = 0.24
+
+boost_omen_fort_maintenance_cost_svalue = -0.2
+boost_omen_mercenary_land_maintenance_cost_svalue = -0.16
+
+boost_omen_monthly_wage_modifier_svalue = -0.16
+
+### Culture ###
+boost_omen_ruler_popularity_gain_svalue = 0.2 ### POSITIVE STATS
+boost_omen_research_points_modifier_svalue = 0.16
+boost_omen_global_monthly_state_loyalty = 0.08
+boost_omen_stability_monthly_change_svalue = 0.08
+
+boost_omen_monthly_tyranny_svalue = -0.08 ### NEGATIVE STATS
+boost_omen_monthly_corruption = -0.12
+boost_omen_war_exhaustion = -0.08
+boost_omen_war_score_cost_svalue = -0.16
+
+boost_omen_global_monthly_civilization_svalue = 0.08 ### CIVILIZATION
+
+boost_omen_global_pop_conversion_speed_modifier_svalue = 0.2 ### ASSIMILATION AND CONVERSION
+boost_omen_global_pop_assimilation_speed_modifier_svalue = 0.2
+
+boost_omen_happiness_for_same_culture_modifier_svalue = 0.14 ### HAPPINESS GROUP MODIFIERS
+boost_omen_happiness_for_same_religion_modifier_svalue = 0.24
+boost_omen_happiness_for_wrong_culture_group_modifier_svalue = 0.08
+boost_omen_happiness_for_wrong_culture_modifier_svalue = 0.12
+
+boost_omen_global_population_happiness = 0.08 #Half of what pop type specific Omens do
+
+### Fertility ###
+boost_omen_global_monthly_food_modifier = 0.3 ### FOOD
+
+boost_omen_global_population_growth = 0.12 ### POPULATION
+
+boost_omen_army_weight_modifier = -0.2
+
+boost_omen_hostile_attrition_svalue = 4
+
+### Pops ###
+boost_omen_global_nobles_happiness_svalue = 0.12 ### NOBLES
+boost_omen_global_nobles_output_svalue = 0.2
+boost_omen_global_citizen_happiness_svalue = 0.12 ### CITIZEN
+boost_omen_global_citizen_output_svalue = 0.2
+boost_omen_global_freemen_happiness_svalue = 0.12 ### FREEMEN
+boost_omen_global_freemen_output_svalue = 0.2
+boost_omen_global_tribesmen_happiness_svalue = 0.12 ### TRIBESMEN
+boost_omen_global_tribesmen_output_svalue = 0.2
+boost_omen_global_slaves_happiness_svalue = 0.12 ### SLAVES
+boost_omen_global_slaves_output_svalue = 0.2

@@ -1,0 +1,128 @@
+#Evil Kemetic Deities Set
+deity_apep = { # WAR
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = egyptian_pantheon
+			}
+			deity:omen_apep = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_kemetic_war_2
+	passive_modifier = { happiness_for_same_religion_modifier = evil_deity_happiness_for_same_religion_modifier }
+	omen = { discipline = boost_omen_discipline_svalue }
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+	religion = egyptian_pantheon
+	deity_category = war #This Deity uses a War Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+deity_ammit = { # Culture
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = egyptian_pantheon
+			}
+			deity:omen_ammit = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_kemetic_eloquence
+	passive_modifier = { global_population_growth = evil_deity_global_population_growth_svalue }
+	omen = { global_monthly_civilization = boost_omen_global_monthly_civilization_svalue }
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+	religion = egyptian_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+deity_mekhanty_irty = { # Fertility
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = egyptian_pantheon
+			}
+			deity:omen_mekhanty_irty = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_kemetic_eloquence
+	passive_modifier = { global_supply_limit_modifier = evil_deity_global_supply_limit_modifier_svalue }
+	omen = { global_population_capacity_modifier = boost_deity_global_population_capacity_modifier_svalue }
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+	religion = egyptian_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+deity_shait = { # Economy (Monarchy)
+	trigger = {
+		is_monarchy = yes
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = egyptian_pantheon
+			}
+			deity:omen_ammit = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_kemetic_wealth_2
+	passive_modifier = { monthly_legitimacy = evil_deity_monthly_legitimacy_svalue }
+	omen = { global_tax_modifier = boost_omen_global_tax_modifier_svalue }
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+	religion = egyptian_pantheon
+	deity_category = culture #This Deity uses an Economy Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+deity_sashu = { # Economy (Democracy and Tribal)
+	trigger = {
+		is_monarchy = no
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			rare_deity_trigger = {
+				RELIGION = egyptian_pantheon
+			}
+			deity:omen_ammit = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_kemetic_wealth_2
+	passive_modifier = { omen_civic_tech_investment = evil_omen_civic_tech_investment_svalue }
+	omen = { global_tax_modifier = boost_omen_global_tax_modifier_svalue }
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+	religion = egyptian_pantheon
+	deity_category = culture #This Deity uses an Economy Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}

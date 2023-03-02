@@ -1,0 +1,106 @@
+### Negative Military ###
+evil_deity_global_cohort_start_experience_svalue = -10 ### EXPERIENCE MODIFIERS
+evil_deity_global_ship_start_experience_svalue = -10
+evil_deity_global_start_experience_svalue = -5
+evil_deity_experience_decay_svalue = 0.005
+
+evil_deity_monthly_military_experience_modifier_svalue = -0.05
+evil_deity_monthly_experience_gain_svalue = -0.25
+
+evil_deity_aggressive_expansion_monthly_change_svalue = 0.025 ### AGGRESSIVE EXPANSION
+evil_deity_aggressive_expansion_impact_svalue = 0.05
+
+evil_deity_global_manpower_modifier_svalue = -0.05 ### MANPOWER
+evil_deity_global_manpower_recovery_speed_svalue = -0.05
+
+evil_deity_global_freemen_output_svalue = -0.1 ### FREEMEN
+evil_deity_global_freemen_happyness_svalue = -0.05
+
+evil_deity_war_score_cost_svalue = 0.05
+evil_deity_war_exhaustion_svalue = 0.025
+
+evil_deity_discipline_svalue = -0.03 ### COMBAT MODIFIERS
+evil_deity_land_morale_modifier_svalue = -0.03
+evil_deity_naval_morale_modifier_svalue = -0.03
+
+evil_deity_army_maintenance_cost_svalue = 0.025 ### MAINTENANCE MODIFIERS
+evil_deity_navy_maintenance_cost_svalue = 0.025
+
+evil_deity_cohort_reinforcement_speed_svalue = -0.05 ### COHORTS
+evil_deity_global_cohort_recruit_speed_svalue = -0.1 ### DEPRECATED
+
+evil_deity_ship_repair_at_sea = -0.1 ### NAVAL
+evil_deity_naval_damage_taken_svalue = 0.05
+
+evil_deity_war_no_cb_cost_modifier = 0.125
+
+evil_deity_fabricate_claim_speed_svalue = -0.5
+
+### Negative Economy ###
+evil_deity_build_cost_svalue = 0.05 ### BUILD
+evil_deity_build_time_svalue = 0.05
+
+evil_deity_global_capital_trade_routes_svalue = -2 ### TRADE
+evil_deity_global_commerce_modifier_svalue = -0.15
+
+evil_deity_global_tax_modifier_svalue = -0.1 ### TAX
+
+evil_deity_global_nobles_output_svalue = -0.1 ### CITIZEN
+evil_deity_global_nobles_happiness_svalue = -0.05
+
+evil_deity_global_citizen_output_svalue = -0.1 ### CITIZEN
+evil_deity_global_citizen_happiness_svalue = -0.05
+
+evil_deity_diplomatic_relations_svalue = -1 ### DIPLOMATIC
+evil_deity_diplomatic_reputation_svalue = -2
+
+evil_deity_civic_tech_investment_svalue = -0.075 ### INVESTMENT MODIFIERS
+evil_deity_military_tech_investment_svalue = -0.075
+evil_deity_oratory_tech_investment_svalue = -0.075
+evil_deity_religious_tech_investment_svalue = -0.075
+
+evil_deity_monthly_wage_modifier_svalue = 0.05
+
+### Negative Culture ###
+evil_deity_monthly_political_influence_modifier_svalue = -0.1 ### POSITIVE STATS
+evil_deity_ruler_popularity_gain_svalue = -0.05
+evil_deity_global_monthly_state_loyalty_svalue = -0.025
+evil_deity_research_points_modifier_svalue = -0.05
+
+evil_deity_monthly_corruption_svalue = 0.05 ### NEGATIVE STATS
+evil_deity_monthly_tyranny_svalue = 0.025
+
+evil_deity_stability_cost_modifier = 0.15 ### STABILITY
+evil_deity_stability_monthly_change = -0.025
+evil_deity_stability_monthly_decay = 0.05
+
+evil_deity_global_monthly_civilization_svalue = -0.05 ### CIVILIZATION
+evil_deity_price_local_civ_button_cost_modifier_svalue = 0.1
+
+evil_deity_global_slaves_happiness_svalue = -0.05 ### SLAVES
+evil_deity_global_slaves_output_svalue = -0.08
+
+evil_deity_global_pop_assimilation_speed_modifier_svalue = -0.05 ### ASSIMILATION & CONVERSION
+evil_deity_global_pop_conversion_speed_modifier_svalue = -0.05
+
+evil_deity_happiness_for_wrong_culture_group_modifier_svalue = -0.03 ### HAPPINESS GROUP MODIFIERS
+evil_deity_happiness_for_wrong_culture_modifier_svalue = -0.04
+evil_deity_happiness_for_same_culture_modifier_svalue = -0.04
+evil_deity_happiness_for_same_religion_modifier = -0.04
+
+evil_deity_call_omen_cost_modifier_svalue = 0.15
+
+### Negative Fertility ###
+evil_deity_global_population_capacity_modifier_svalue = -0.1 ### POPULATION
+evil_deity_global_population_growth_svalue = -0.04
+
+evil_deity_global_monthly_food_modifier_svalue = -0.1 ### FOOD
+evil_deity_global_food_capacity_svalue = -150
+
+evil_deity_global_supply_limit_modifier_svalue = -0.15
+
+evil_global_tribesmen_happiness_svalue = -0.05 ### TRIBESMEN
+evil_global_tribesmen_output_svalue = -0.1
+
+### Monarchy Specific ###
+evil_deity_monthly_legitimacy_svalue = -0.05

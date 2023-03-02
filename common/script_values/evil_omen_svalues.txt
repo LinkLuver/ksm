@@ -1,0 +1,81 @@
+### Military ###
+evil_omen_discipline_svalue = -0.05
+
+evil_omen_land_morale_modifier_svalue = -0.05 ### MORALE
+evil_omen_naval_morale_modifier_svalue = -0.05
+
+evil_omen_manpower_recovery_speed = -0.08 ### MANPOWER
+
+evil_omen_aggressive_expansion_monthly_change_svalue = 0.05 ### AGGRESSIVE EXPANSION
+
+evil_omen_naval_damage_done_svalue = -0.08 ### NAVAL
+evil_omen_naval_damage_taken_svalue = 0.08
+
+evil_omen_global_defensive_svalue = -0.12
+
+evil_omen_war_no_cb_cost_modifier_svalue = 0.25
+
+evil_omen_assault_ability_svalue = -0.1
+
+evil_omen_fabricate_claim_speed_svalue = -
+
+### Economy ###
+evil_omen_build_cost_svalue = 0.08
+
+evil_omen_global_commerce_modifier_svalue = -0.12 ### COMMERCE
+
+evil_omen_global_tax_modifier_svalue = -0.10 ### TAX
+
+evil_omen_religious_tech_investment_svalue = -0.12 ### TECH INVESTMENT
+evil_omen_civic_tech_investment_svalue = -0.12
+evil_omen_military_tech_investment = -0.12
+evil_omen_oratory_tech_investment = -0.12
+
+evil_omen_fort_maintenance_cost_svalue = 0.1
+evil_omen_mercenary_land_maintenance_cost_svalue = 0.08
+
+evil_omen_monthly_wage_modifier_svalue = 0.08
+
+### Culture ###
+evil_omen_ruler_popularity_gain_svalue = -0.1 ### POSITIVE STATS
+evil_omen_research_points_modifier_svalue = -0.08 
+evil_omen_global_monthly_state_loyalty = -0.04
+evil_omen_stability_monthly_change_svalue = -0.04
+
+evil_omen_monthly_tyranny_svalue = 0.04 ### NEGATIVE STATS
+evil_omen_monthly_corruption = 0.06
+evil_omen_war_exhaustion = 0.04
+evil_omen_war_score_cost_svalue = 0.08
+
+evil_omen_global_monthly_civilization_svalue = -0.04 ### CIVILIZATION
+
+evil_omen_global_pop_conversion_speed_modifier_svalue = -0.1 ### ASSIMILATION AND CONVERSION
+evil_omen_global_pop_assimilation_speed_modifier_svalue = -0.1
+
+evil_omen_happiness_for_same_culture_modifier_svalue = -0.07 ### HAPPINESS GROUP MODIFIERS
+evil_omen_happiness_for_same_religion_modifier_svalue = -0.12
+evil_omen_happiness_for_wrong_culture_group_modifier_svalue = -0.04
+evil_omen_happiness_for_wrong_culture_modifier_svalue = -0.06
+
+evil_omen_global_population_happiness = -0.04 #Half of what pop type specific Omens do
+
+### Fertility ###
+evil_omen_global_monthly_food_modifier = -0.15 ### FOOD
+
+evil_omen_global_population_growth = -0.06 ### POPULATION
+
+evil_omen_army_weight_modifier = 0.1
+
+evil_omen_hostile_attrition_svalue = -2
+
+### Pops ###
+evil_omen_global_nobles_happiness_svalue = -0.06 ### NOBLES
+evil_omen_global_nobles_output_svalue = -0.1
+evil_omen_global_citizen_happiness_svalue = -0.06 ### CITIZEN
+evil_omen_global_citizen_output_svalue = -0.1
+evil_omen_global_freemen_happiness_svalue = -0.06 ### FREEMEN
+evil_omen_global_freemen_output_svalue = -0.1
+evil_omen_global_tribesmen_happiness_svalue = -0.06 ### TRIBESMEN
+evil_omen_global_tribesmen_output_svalue = -0.1
+evil_omen_global_slaves_happiness_svalue = -0.06 ### SLAVES
+evil_omen_global_slaves_output_svalue = -0.1

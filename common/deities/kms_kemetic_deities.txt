@@ -49,51 +49,26 @@ deity_sobek_ra = { # WAR
 		can_deify_trigger = yes
 	}
 }
-deity_amun_ra = { # WAR
+deity_amun_ra = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			rare_deity_trigger = {
 				RELIGION = egyptian_pantheon
 			}
-			deity:omen_sobek_ra = {
+			deity:omen_amun_ra = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
-	icon = deity_kemetic_war_2
-	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
-	omen = { global_slaves_output = omen_global_slaves_output_svalue } #Bonus from Omen
+	icon = deity_kemetic_love
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_freemen_output = omen_global_freemen_output_svalue } #Bonus from Omen
 	on_activate = {
 		fertility_apotheosis_capital_slaves_effect = yes
 	}
 	religion = egyptian_pantheon
-	deity_category = war #This Deity uses a culture Slot
-
-	deification_trigger = {
-		can_deify_trigger = yes
-	}
-}
-deity_sobek_ra = { # WAR
-	trigger = {
-		polytheistic_check_religion_trigger = yes
-		OR = {
-			rare_deity_trigger = {
-				RELIGION = egyptian_pantheon
-			}
-			deity:omen_sobek_ra = {
-				holy_site_deity_check_trigger = yes
-			}
-		}
-	}
-	icon = deity_kemetic_war_2
-	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
-	omen = { global_slaves_output = omen_global_slaves_output_svalue } #Bonus from Omen
-	on_activate = {
-		fertility_apotheosis_capital_slaves_effect = yes
-	}
-	religion = egyptian_pantheon
-	deity_category = war #This Deity uses a culture Slot
+	deity_category = fertility #This Deity uses a culture Slot
 
 	deification_trigger = {
 		can_deify_trigger = yes
@@ -106,13 +81,13 @@ deity_resheph_horus = {
 			rare_deity_trigger = {
 				RELIGION = egyptian_pantheon
 			}
-			deity:omen_rasheph_horus = {
+			deity:omen_resheph_horus = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
 	icon = deity_kemetic_war
-	passive_modifier = { war_score_cost = deity_war_score_cost_svalue }
+	passive_modifier = { cohort_reinforcement_speed = deity_cohort_reinforcement_speed_svalue }
 	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
 	religion = egyptian_pantheon
 	deity_category = war #This Deity uses a War slot.
@@ -138,7 +113,7 @@ deity_qetesh_hathor = {
 		}
 	}
 	icon = deity_kemetic_love_2
-	passive_modifier = { global_population_capaity = deity_global_population_capacity_modifier_svalue }
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_nobles_happyness = deity_global_nobles_happiness_svalue } #Bonus from Omen
 	religion = egyptian_pantheon
 	deity_category = fertility #This Deity uses a Fertility slot.
@@ -191,44 +166,6 @@ deity_harpocrates = {
 
 	on_activate = {
 		culture_apotheosis_civic_tech_effect = yes
-	}
-}
-
-deity_sikandar = { #note, not done
-	trigger = {
-		polytheistic_check_religion_trigger = yes
-		OR = {
-			AND = {
-				religion = egyptian_pantheon
-				religion_pops_in_country = {
-					target = roman_pantheon
-					value >= rare_deity_svalue
-				}
-			}
-			AND = {
-				religion = roman_pantheon
-				religion_pops_in_country = {
-					target = egyptian_pantheon
-					value >= rare_deity_svalue
-				}
-			}
-			deity:omen_rasheph_horus = {
-				holy_site_deity_check_trigger = yes
-			}
-		}
-	}
-	icon = deity_diadochi_war
-	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
-	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
-	religion = egyptian_pantheon
-	deity_category = war #This Deity uses a War slot.
-	
-	deification_trigger = {
-		can_deify_trigger = yes
-	}
-	
-	on_activate = {
-		culture_apotheosis_characters_effect = yes
 	}
 }
 

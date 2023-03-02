@@ -1,0 +1,106 @@
+### Military ###
+boost_deity_global_cohort_start_experience_svalue = 20 ### EXPERIENCE MODIFIERS
+boost_deity_global_ship_start_experience_svalue = 20
+boost_deity_global_start_experience_svalue = 10
+boost_deity_experience_decay_svalue = -0.01
+
+boost_deity_monthly_military_experience_modifier_svalue = 0.1
+boost_deity_monthly_experience_gain_svalue = 0.5
+
+boost_deity_aggressive_expansion_monthly_change_svalue = -0.05 ### AGGRESSIVE EXPANSION
+boost_deity_aggressive_expansion_impact_svalue = -0.1
+
+boost_deity_global_manpower_modifier_svalue = 0.1 ### MANPOWER
+boost_deity_global_manpower_recovery_speed_svalue = 0.1
+
+boost_deity_global_freemen_output_svalue = 0.2 ### FREEMEN
+boost_deity_global_freemen_happyness_svalue = 0.1
+
+boost_deity_war_score_cost_svalue = -0.1
+boost_deity_war_exhaustion_svalue = -0.05
+
+boost_deity_discipline_svalue = 0.06 ### COMBAT MODIFIERS
+boost_deity_land_morale_modifier_svalue = 0.06
+boost_deity_naval_morale_modifier_svalue = 0.06
+
+boost_deity_army_maintenance_cost_svalue = -0.05 ### MAINTENANCE MODIFIERS
+boost_deity_navy_maintenance_cost_svalue = -0.05
+
+boost_deity_cohort_reinforcement_speed_svalue = 0.1 ### COHORTS
+boost_deity_global_cohort_recruit_speed_svalue = 0.2 ### DEPRECATED
+
+boost_deity_ship_repair_at_sea = 0.2 ### NAVAL
+boost_deity_naval_damage_taken_svalue = -0.1
+
+boost_deity_war_no_cb_cost_modifier = -0.25
+
+boost_deity_fabricate_claim_speed_svalue = 1
+
+### Economy ###
+boost_deity_build_cost_svalue = -0.1 ### BUILD
+boost_deity_build_time_svalue = -0.1
+
+boost_deity_global_capital_trade_routes_svalue = 4 ### TRADE
+boost_deity_global_commerce_modifier_svalue = 0.3
+
+boost_deity_global_tax_modifier_svalue = 0.2 ### TAX
+
+boost_deity_global_nobles_output_svalue = 0.2 ### CITIZEN
+boost_deity_global_nobles_happiness_svalue = 0.1
+
+boost_deity_global_citizen_output_svalue = 0.2 ### CITIZEN
+boost_deity_global_citizen_happiness_svalue = 0.1
+
+boost_deity_diplomatic_relations_svalue = 4 ### DIPLOMATIC
+boost_deity_diplomatic_reputation_svalue = 5
+
+boost_deity_civic_tech_investment_svalue = 0.15 ### INVESTMENT MODIFIERS
+boost_deity_military_tech_investment_svalue = 0.15
+boost_deity_oratory_tech_investment_svalue = 0.15
+boost_deity_religious_tech_investment_svalue = 0.15
+
+boost_deity_monthly_wage_modifier_svalue = -0.1
+
+### Culture ###
+boost_deity_monthly_political_influence_modifier_svalue = 0.2 ### POSITIVE STATS
+boost_deity_ruler_popularity_gain_svalue = 0.1
+boost_deity_global_monthly_state_loyalty_svalue = 0.05
+boost_deity_research_points_modifier_svalue = 0.1
+
+boost_deity_monthly_corruption_svalue = -0.1 ### NEGATIVE STATS
+boost_deity_monthly_tyranny_svalue = -0.05
+
+boost_deity_stability_cost_modifier = -0.3 ### STABILITY
+boost_deity_stability_monthly_change = 0.05
+boost_deity_stability_monthly_decay = -0.1
+
+boost_deity_global_monthly_civilization_svalue = 0.1 ### CIVILIZATION
+boost_deity_price_local_civ_button_cost_modifier_svalue = -0.2
+
+boost_deity_global_slaves_happiness_svalue = 0.1 ### SLAVES
+boost_deity_global_slaves_output_svalue = 0.16
+
+boost_deity_global_pop_assimilation_speed_modifier_svalue = 0.1 ### ASSIMILATION & CONVERSION
+boost_deity_global_pop_conversion_speed_modifier_svalue = 0.1
+
+boost_deity_happiness_for_wrong_culture_group_modifier_svalue = 0.06 ### HAPPINESS GROUP MODIFIERS
+boost_deity_happiness_for_wrong_culture_modifier_svalue = 0.08
+boost_deity_happiness_for_same_culture_modifier_svalue = 0.08
+boost_deity_happiness_for_same_religion_modifier = 0.08
+
+boost_deity_call_omen_cost_modifier_svalue = -0.3
+
+### Fertility ###
+boost_deity_global_population_capacity_modifier_svalue = 0.2 ### POPULATION
+boost_deity_global_population_growth_svalue = 0.08
+
+boost_deity_global_monthly_food_modifier_svalue = 0.2 ### FOOD
+boost_deity_global_food_capacity_svalue = 300
+
+boost_deity_global_supply_limit_modifier_svalue = 0.3
+
+boost_global_tribesmen_happiness_svalue = 0.1 ### TRIBESMEN
+boost_global_tribesmen_output_svalue = 0.2
+
+### Monarchy Specific ###
+boost_deity_monthly_legitimacy_svalue = 0.1

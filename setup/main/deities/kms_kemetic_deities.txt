@@ -9,11 +9,11 @@ deity_manager = {
 			key = omen_sobek_ra
 			deity = deity_sobek_ra
 		}
-		492 = { #Canaanite Syncretic
+		492 = {
 			key = omen_resheph_horus
 			deity = deity_resheph_horus
 		}
-		493 = { #Canaanite Syncretic
+		493 = {
 			key = omen_qetesh_hathor
 			deity = deity_qetesh_hathor
 		}
