@@ -85,7 +85,7 @@ deity_manager = {
 		}
 		522 = {
 			key = omen_hattar
-			deity = deity_hathor_astwer
+			deity = deity_hattar
 		}
 		523 = {
 			key = omen_beherhapy
