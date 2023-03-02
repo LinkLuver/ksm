@@ -19,17 +19,39 @@ deity_manager = {
 		}
 
 		#Syncretic Gods
-		505 = { #Canaanite Syncretic
+		505 = { #Canaanite
 			key = omen_anat_bastet
 			deity = deity_anat_bastet
 		}
-		506 = {
+		506 = { #Canaanite
 			key = omen_asarte_sekhmet
 			deity = deity_asarte_sekhmet
 		}
-		507 = {
+		507 = { #Canaanite
 			key = omen_melqart_osiris
 			deity = deity_melqart_osiris
+		}
+
+		#Evil Gods
+		524 = {
+			key = omen_apep
+			deity = deity_apep
+		}
+		523 = {
+			key = omen_ammit
+			deity = deity_ammit
+		}
+		522 = {
+			key = omen_mekhanty_irty
+			deity = deity_mekhanty_irty
+		}
+		521 = {
+			key = omen_shait
+			deity = deity_shait
+		}
+		520 = {
+			key = omen_sashu
+			deity = omen_sashu
 		}
 	}
 }

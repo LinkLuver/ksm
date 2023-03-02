@@ -40,7 +40,7 @@ deity_ammit = { # Culture
 	passive_modifier = { global_population_growth = evil_deity_global_population_growth_svalue }
 	omen = { global_monthly_civilization = boost_omen_global_monthly_civilization_svalue }
 	on_activate = {
-		military_apotheosis_military_experience_effect = yes
+		culture_apotheosis_rel_tech_effect = yes
 	}
 	religion = egyptian_pantheon
 	deity_category = culture #This Deity uses a Culture Slot
@@ -65,7 +65,7 @@ deity_mekhanty_irty = { # Fertility
 	passive_modifier = { global_supply_limit_modifier = evil_deity_global_supply_limit_modifier_svalue }
 	omen = { global_population_capacity_modifier = boost_deity_global_population_capacity_modifier_svalue }
 	on_activate = {
-		military_apotheosis_military_experience_effect = yes
+		fertility_apotheosis_capital_slaves_effect = yes
 	}
 	religion = egyptian_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
@@ -91,7 +91,7 @@ deity_shait = { # Economy (Monarchy)
 	passive_modifier = { monthly_legitimacy = evil_deity_monthly_legitimacy_svalue }
 	omen = { global_tax_modifier = boost_omen_global_tax_modifier_svalue }
 	on_activate = {
-		military_apotheosis_military_experience_effect = yes
+		economy_apotheosis_province_improvement_effect = yes
 	}
 	religion = egyptian_pantheon
 	deity_category = culture #This Deity uses an Economy Slot
@@ -117,7 +117,7 @@ deity_sashu = { # Economy (Democracy and Tribal)
 	passive_modifier = { omen_civic_tech_investment = evil_omen_civic_tech_investment_svalue }
 	omen = { global_tax_modifier = boost_omen_global_tax_modifier_svalue }
 	on_activate = {
-		military_apotheosis_military_experience_effect = yes
+		economy_apotheosis_province_improvement_effect = yes
 	}
 	religion = egyptian_pantheon
 	deity_category = culture #This Deity uses an Economy Slot
