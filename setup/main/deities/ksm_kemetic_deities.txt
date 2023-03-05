@@ -1,53 +1,50 @@
 deity_manager = {
-	deities_database = { #Mod Deities 476-486 and 503-524
+	deities_database = { #Mod Deities 4700 - 4800
 		#Combo Gods
-		521 = {
+		4700 = {
 			key = omen_sekhmet_bastet
 			deity = deity_sekhmet_bastet
 		}
-		491 = {
+		4701 = {
 			key = omen_sobek_ra
 			deity = deity_sobek_ra
 		}
-		492 = {
+		4702 = {
 			key = omen_resheph_horus
 			deity = deity_resheph_horus
 		}
-		493 = {
+		4703 = {
 			key = omen_qetesh_hathor
 			deity = deity_qetesh_hathor
 		}
-
-		#Syncretic Gods
-		505 = { #Canaanite
-			key = omen_anat_bastet
-			deity = deity_anat_bastet
-		}
-		506 = { #Canaanite
-			key = omen_astarte_sekhmet
-			deity = deity_astarte_sekhmet
-		}
-		507 = { #Canaanite
-			key = omen_melqart_osiris
-			deity = deity_melqart_osiris
-		}
-
-		#Evil Gods Keys 5200-5250
-		5240 = {
+		4704 = {
 			key = omen_apep
 			deity = deity_apep
 		}
-		5230 = {
+		4705 = {
 			key = omen_ammit
 			deity = deity_ammit
 		}
-		5210 = {
+		4706 = {
 			key = omen_mekhanty_irty
 			deity = deity_mekhanty_irty
 		}
-		5220 = {
+		4707 = {
 			key = omen_sashu
 			deity = deity_sashu
+		}
+		#Syncretic Gods
+		4708 = { #Canaanite
+			key = omen_anat_bastet
+			deity = deity_anat_bastet
+		}
+		4709 = { #Canaanite
+			key = omen_astarte_sekhmet
+			deity = deity_astarte_sekhmet
+		}
+		4710 = { #Canaanite
+			key = omen_melqart_osiris
+			deity = deity_melqart_osiris
 		}
 	}
 }
