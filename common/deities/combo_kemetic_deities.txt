@@ -49,7 +49,7 @@ deity_sobek_ra = { # WAR
 		can_deify_trigger = yes
 	}
 }
-deity_amun_ra = { # FERTILITY
+deity_amun_ra = { # Culture
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
@@ -61,14 +61,14 @@ deity_amun_ra = { # FERTILITY
 			}
 		}
 	}
-	icon = deity_kemetic_love
+	icon = deity_kemetic_eloquence_2
 	passive_modifier = { agressive_expansion_impact = deity_aggressive_expansion_impact_svalue }
 	omen = { global_slaves_output = omen_global_slaves_output_svalue } #Bonus from Omen
 	on_activate = {
 		fertility_apotheosis_capital_effect = yes
 	}
 	religion = egyptian_pantheon
-	deity_category = fertility #This Deity uses a culture Slot
+	deity_category = culture #This Deity uses a culture Slot
 
 	deification_trigger = {
 		can_deify_trigger = yes

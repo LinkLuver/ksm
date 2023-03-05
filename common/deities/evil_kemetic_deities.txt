@@ -61,7 +61,7 @@ deity_mekhanty_irty = { # Fertility
 			}
 		}
 	}
-	icon = deity_kemetic_eloquence
+	icon = deity_kemetic_love
 	passive_modifier = { global_supply_limit_modifier = evil_deity_global_supply_limit_modifier_svalue }
 	omen = { global_population_capacity_modifier = boost_deity_global_population_capacity_modifier_svalue }
 	on_activate = {

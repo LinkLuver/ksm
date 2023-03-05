@@ -1,8 +1,7 @@
-version="v0.1"
+version="Apep"
 tags={
 	"Historical"
-	"Characters"
 }
-name="Kemetic Mod for Syncretism"
+name="Kemetic Syncretism and More"
 supported_version="2.03"
-remote_file_id="2936629590"
+remote_file_id="2942496249"

@@ -1,5 +1,6 @@
 deity_manager = {
 	deities_database = { #Mod Deities 4700 - 4800
+	##Alpha Nun and Alpha Apep##
 		#Combo Gods
 		4700 = {
 			key = omen_sekhmet_bastet
@@ -45,6 +46,11 @@ deity_manager = {
 		4710 = { #Canaanite
 			key = omen_melqart_osiris
 			deity = deity_melqart_osiris
+		}
+		#Woops forgot Amun-Ra
+		4711 = {
+			key = omen_amun_ra
+			deity = deity_amun_ra
 		}
 	}
 }
