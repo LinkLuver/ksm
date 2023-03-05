@@ -1,7 +1,7 @@
 deity_manager = {
 	deities_database = { #Mod Deities 476-486 and 503-524
 		#Combo Gods
-		490 = {
+		521 = {
 			key = omen_sekhmet_bastet
 			deity = deity_sekhmet_bastet
 		}
@@ -24,34 +24,30 @@ deity_manager = {
 			deity = deity_anat_bastet
 		}
 		506 = { #Canaanite
-			key = omen_asarte_sekhmet
-			deity = deity_asarte_sekhmet
+			key = omen_astarte_sekhmet
+			deity = deity_astarte_sekhmet
 		}
 		507 = { #Canaanite
 			key = omen_melqart_osiris
 			deity = deity_melqart_osiris
 		}
 
-		#Evil Gods
-		524 = {
+		#Evil Gods Keys 5200-5250
+		5240 = {
 			key = omen_apep
 			deity = deity_apep
 		}
-		523 = {
+		5230 = {
 			key = omen_ammit
 			deity = deity_ammit
 		}
-		522 = {
+		5210 = {
 			key = omen_mekhanty_irty
 			deity = deity_mekhanty_irty
 		}
-		521 = {
-			key = omen_shait
-			deity = deity_shait
-		}
-		520 = {
+		5220 = {
 			key = omen_sashu
-			deity = omen_sashu
+			deity = deity_sashu
 		}
 	}
 }

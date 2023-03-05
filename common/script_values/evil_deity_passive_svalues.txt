@@ -1,4 +1,4 @@
-### Negative Military ###
+﻿### Negative Military ###
 evil_deity_global_cohort_start_experience_svalue = -10 ### EXPERIENCE MODIFIERS
 evil_deity_global_ship_start_experience_svalue = -10
 evil_deity_global_start_experience_svalue = -5

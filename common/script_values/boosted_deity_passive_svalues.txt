@@ -1,4 +1,4 @@
-### Military ###
+﻿### Military ###
 boost_deity_global_cohort_start_experience_svalue = 20 ### EXPERIENCE MODIFIERS
 boost_deity_global_ship_start_experience_svalue = 20
 boost_deity_global_start_experience_svalue = 10

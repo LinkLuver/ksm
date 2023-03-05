@@ -1,4 +1,4 @@
-### Military ###
+﻿### Military ###
 evil_omen_discipline_svalue = -0.05
 
 evil_omen_land_morale_modifier_svalue = -0.05 ### MORALE

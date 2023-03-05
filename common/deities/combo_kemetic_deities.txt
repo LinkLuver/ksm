@@ -107,7 +107,7 @@ deity_qetesh_hathor = {
 			rare_deity_trigger = {
 				RELIGION = egyptian_pantheon
 			}
-			deity:qetesh_hathor = {
+			deity:omen_qetesh_hathor = {
 				holy_site_deity_check_trigger = yes
 			}
 		}

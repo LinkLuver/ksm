@@ -1,4 +1,4 @@
-### Military ###
+﻿### Military ###
 boost_omen_discipline_svalue = 0.1
 
 boost_omen_land_morale_modifier_svalue = 0.1 ### MORALE

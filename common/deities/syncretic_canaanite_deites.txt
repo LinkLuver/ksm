@@ -1,4 +1,4 @@
-#CANAANITE SYNCRETICS
+﻿#CANAANITE SYNCRETICS
 deity_anat_bastet = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
