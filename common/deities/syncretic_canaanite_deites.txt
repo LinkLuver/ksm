@@ -45,14 +45,14 @@ deity_astarte_sekhmet = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = carthaginian_pantheon
-					value >= rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = carthaginian_pantheon
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_astarte_sekhmet = {
@@ -83,14 +83,14 @@ deity_melqart_osiris = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = carthaginian_pantheon
-					value >= rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = carthaginian_pantheon
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_melqart_osiris = {
