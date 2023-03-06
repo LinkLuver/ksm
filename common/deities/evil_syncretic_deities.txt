@@ -1,0 +1,38 @@
+#Tuistic
+deity_apepirmin = { #Might make this some kind of evil god thing with a negative modifier but a powerful positive modifier too
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			AND = {
+				religion = egyptian_pantheon
+				religion_pops_in_country = {
+					target = germanic_religion
+					value >= very_rare_deity_svalue
+				}
+			}
+			AND = {
+				religion = germanic_religion
+				religion_pops_in_country = {
+					target = egyptian_pantheon
+					value >= very_rare_deity_svalue
+				}
+			}
+			deity:omen_apepirmin = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_war
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = egyptian_pantheon
+	deity_category = war #This Deity uses a War slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+}

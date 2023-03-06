@@ -1,0 +1,152 @@
+#CHALDEAN SYNCRETICS, MAINLY FICTIONAL
+deity_nebothoth = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			AND = {
+				religion = egyptian_pantheon
+				religion_pops_in_country = {
+					target = mesopotamian_religion
+					value >= rare_deity_svalue
+				}
+			}
+			AND = {
+				religion = mesopotamian_religion
+				religion_pops_in_country = {
+					target = egyptian_pantheon
+					value >= rare_deity_svalue
+				}
+			}
+			deity:omen_nebothoth = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_eloquence
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = egyptian_pantheon
+	deity_category = culture #This Deity uses a Culture slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+}
+
+deity_nerganubis = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			AND = {
+				religion = egyptian_pantheon
+				religion_pops_in_country = {
+					target = mesopotamian_religion
+					value >= common_deity_svalue
+				}
+			}
+			AND = {
+				religion = mesopotamian_religion
+				religion_pops_in_country = {
+					target = egyptian_pantheon
+					value >= common_deity_svalue
+				}
+			}
+			deity:omen_nerbanubis = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_economy
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = egyptian_pantheon
+	deity_category = war #This Deity uses a War slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+}
+
+deity_shamashra = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			AND = {
+				religion = egyptian_pantheon
+				religion_pops_in_country = {
+					target = mesopotamian_religion
+					value >= common_deity_svalue
+				}
+			}
+			AND = {
+				religion = mesopotamian_religion
+				religion_pops_in_country = {
+					target = egyptian_pantheon
+					value >= common_deity_svalue
+				}
+			}
+			deity:omen_shamashra = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_culture
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = egyptian_pantheon
+	deity_category = culture #This Deity uses a Culture slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+}
+
+deity_ishtar_hathor = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			AND = {
+				religion = egyptian_pantheon
+				religion_pops_in_country = {
+					target = mesopotamian_religion
+					value >= rare_deity_svalue
+				}
+			}
+			AND = {
+				religion = mesopotamian_religion
+				religion_pops_in_country = {
+					target = egyptian_pantheon
+					value >= rare_deity_svalue
+				}
+			}
+			deity:omen_ishtarhathor = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_love
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = egyptian_pantheon
+	deity_category = fertility #This Deity uses a Fertility slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+}
