@@ -7,14 +7,14 @@ deity_woden_thoth = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = germanic_religion
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = germanic_religion
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_woden_thoth = {
@@ -45,14 +45,14 @@ deity_isis_freya = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = germanic_religion
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = germanic_religion
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_isis_freya = {
@@ -83,14 +83,14 @@ deity_tuistamun = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = germanic_religion
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = germanic_religion
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_tuistamun = {
@@ -121,14 +121,14 @@ deity_monthunraz = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = germanic_religion
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = germanic_religion
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_monthunraz = {

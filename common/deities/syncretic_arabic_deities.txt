@@ -7,14 +7,14 @@ deity_al_lathor = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = arabian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = arabian_pantheon
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_al_lathor = {
@@ -45,14 +45,14 @@ deity_uzzamaat = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = arabian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = arabian_pantheon
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_uzzamaat = {
@@ -83,14 +83,14 @@ deity_al_kuthoth = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = arabian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = arabian_pantheon
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_al_kuthoth = {
@@ -124,14 +124,14 @@ deity_mahbek= {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = arabian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = arabian_pantheon
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_maher_sobek = {
@@ -163,14 +163,14 @@ deity_hattar = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = arabian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = arabian_pantheon
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_hathor_astwer = {
@@ -202,14 +202,14 @@ deity_beherhapy = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = arabian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = arabian_pantheon
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= very_rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_baherhapy = {

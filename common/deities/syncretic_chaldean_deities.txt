@@ -7,14 +7,14 @@ deity_nebothoth = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = mesopotamian_religion
-					value >= rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = mesopotamian_religion
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_nebothoth = {
@@ -121,14 +121,14 @@ deity_ishtar_hathor = {
 				religion = egyptian_pantheon
 				religion_pops_in_country = {
 					target = mesopotamian_religion
-					value >= rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			AND = {
 				religion = mesopotamian_religion
 				religion_pops_in_country = {
 					target = egyptian_pantheon
-					value >= rare_deity_svalue
+					value >= common_deity_svalue
 				}
 			}
 			deity:omen_ishtarhathor = {
